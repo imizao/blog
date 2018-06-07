@@ -1,0 +1,11 @@
+.mz-header{
+  width: 100%;
+  height: 75px;
+  background: #ccc;
+}
+.mz-top{
+  width: 1200px;
+  height: 100%;
+  background: #fff;
+  margin: 0 auto;
+}
