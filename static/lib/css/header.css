@@ -9,3 +9,17 @@
   background: #fff;
   margin: 0 auto;
 }
+.mz-logo{
+  position: absolute;
+  width: 150px;
+  height: 75px;
+}
+.mz-logo h1{
+  position: absolute;
+  text-indent: -500px;
+  
+}
+.mz-logo img{
+  width: 150px;
+  height: 100%;
+}
