@@ -74,3 +74,11 @@
 .mz-top-nav:nth-child(4):after{
   background: #ec5a20;
 }
+
+/* main */
+.mz-main{
+  position: relative;
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+}
