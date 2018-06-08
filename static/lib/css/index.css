@@ -1,3 +1,6 @@
+.mz-bg{
+  background: #f5f8ff;
+}
 .mz-header{
   width: 100%;
   height: 70px;
@@ -80,5 +83,93 @@
   position: relative;
   width: 960px;
   height: auto;
+  margin: 10px auto 0;
+}
+.mz-content{
+  float: right;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 700px;
+  background: #f5f8ff;
+  min-height: 700px;
+  box-shadow: initial;
+  border-radius: initial;
+}
+.mz-sidebar{
+  position: static;
+  float: left;
+  width: 240px;
+  background: #f5f7f9;
+  box-shadow: none;
+}
+.mz-sidebar-inner{
+  position: relative;
+  box-sizing: border-box;
+  width: 240px;
+  padding: 20px 10px;
+  color: #555;
+  background: #fff;
+  box-shadow: initial;
+  border-radius: initial;
+}
+.mz-author{
+
+}
+.mz-author-img{
+  display: block;
   margin: 0 auto;
+  padding: 2px;
+  max-width: 120px;
+  height: auto;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  transition: all 0.5s;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+  cursor: pointer;
+}
+.mz-author-name{
+  margin: 5px;
+  text-align: center;
+  color: #222;
+  font-weight: 600;
+}
+.mz-links{
+  margin-top: 20px;
+}
+.mz-links-item{
+  float: left;
+  margin: 5px 0 0;
+  width: 50%;
+}
+.mz-links-item a{
+  box-sizing: border-box;
+  display: block;
+  text-decoration: none;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0 5px;
+  line-height: 22px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.mz-github-icon{
+  float: left;
+  width: 22px;
+  height: 22px;
+  background: url("../img/GitHub.png") no-repeat;
+  background-size: 100%;
+  margin-right: 5px;
+}
+.mz-weibo-icon{
+  float: left;
+  width: 22px;
+  height: 22px;
+  background: url("../img/weibo.png") no-repeat;
+  background-size: 100%;
+  margin-right: 5px;
 }
