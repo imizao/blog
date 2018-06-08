@@ -14,9 +14,11 @@
   margin: 0 auto;
 }
 .mz-logo{
-  position: absolute;
-  width: 150px;
-  height: 70px;
+  position: relative;
+  left: 0;
+  top: 5px;
+  width: 60px;
+  height: 60px;
 }
 .mz-logo h1{
   position: absolute;
@@ -24,8 +26,8 @@
   text-indent: -500px; 
 }
 .mz-logo img{
-  width: 150px;
-  height: 100%;
+  width: 60px;
+  height: 60px;
 }
 .mz-header-nav{
   float: right;
