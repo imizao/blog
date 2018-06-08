@@ -83,7 +83,7 @@
   position: relative;
   width: 960px;
   height: auto;
-  margin: 10px auto 0;
+  margin: 15px auto 0;
 }
 .mz-content{
   float: right;
@@ -99,7 +99,6 @@
   position: static;
   float: left;
   width: 240px;
-  background: #f5f7f9;
   box-shadow: none;
 }
 .mz-sidebar-inner{
@@ -111,9 +110,7 @@
   background: #fff;
   box-shadow: initial;
   border-radius: initial;
-}
-.mz-author{
-
+  margin-bottom: 16px;
 }
 .mz-author-img{
   display: block;
@@ -125,9 +122,6 @@
   border-radius: 50%;
   transition: all 0.5s;
   -webkit-transform: rotate(0);
-  -moz-transform: rotate(0);
-  -ms-transform: rotate(0);
-  -o-transform: rotate(0);
   transform: rotate(0);
   cursor: pointer;
 }
@@ -149,27 +143,68 @@
   box-sizing: border-box;
   display: block;
   text-decoration: none;
+  border-radius: 15px;
+  color: #555;
+  font-size: 14px;
   margin-right: 0;
   margin-bottom: 0;
-  padding: 0 5px;
-  line-height: 22px;
+  padding: 5px;
+  line-height: 20px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-filter: gray;
+  filter: gray;
+  transition: all .3s ease-out;
+}
+.mz-links-item a:hover{
+  color: #f5f7f9;
+  background: rgb(124, 124, 124);
+  -webkit-filter: grayscale(10%);
+  filter: grayscale(10%);
 }
 .mz-github-icon{
   float: left;
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   background: url("../img/GitHub.png") no-repeat;
   background-size: 100%;
   margin-right: 5px;
 }
 .mz-weibo-icon{
   float: left;
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   background: url("../img/weibo.png") no-repeat;
   background-size: 100%;
   margin-right: 5px;
+}
+.mz-sidebar-box{
+  position: relative;
+  margin-bottom: 16px;
+  background-color: rgba(255, 255, 255, 0.911);
+}
+.mz-sidebar-box .mz-title {
+  margin: 0;
+  padding-left: 16px;
+  padding-left: 1rem;
+  height: 48px;
+  height: 3rem;
+  line-height: 48px;
+  line-height: 3rem;
+  font-size: 14px;
+  font-weight: 400;
+  color: #48494d;
+  border-bottom: 1px dashed #eee;
+}
+.mz-sidebar-con{
+  padding: 12px 16px;
+}
+.mz-sidebar-content{
+  padding: 8px 5px;
+}
+.mz-sidebar-content h5{
+  font-size: 13px;
 }
