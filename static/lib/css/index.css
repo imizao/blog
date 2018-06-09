@@ -113,6 +113,17 @@
   box-shadow: initial;
   border-radius: initial;
   margin-bottom: 16px;
+  border-left:1px #1e7dd6 dotted;
+  border-right:1px #66d4ca dotted;
+  border-top:1px #9f4fe1 dotted;
+  border-bottom:1px #df4c9a dotted;
+  transition: all .3s;
+}
+.mz-sidebar-inner:hover{
+  border-left:1px #df4c9a solid;
+  border-right:1px #9f4fe1 solid;
+  border-top:1px #66d4ca solid;
+  border-bottom:1px #1e7dd6 solid;
 }
 .mz-author-img{
   display: block;
