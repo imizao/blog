@@ -50,6 +50,10 @@ a {
 .mz-logo img{
   width: 60px;
   height: 60px;
+  -webkit-filter: grayscale(98%);
+  filter: grayscale(98%);
+  -webkit-filter: #1f527f;
+  filter: #1f527f;
 }
 .mz-header-nav{
   float: right;
@@ -90,16 +94,16 @@ a {
   color: whitesmoke;
 }
 .mz-top-nav:nth-child(1):after{
-  background: #78be81;
+  background: #1f527f;
 }
 .mz-top-nav:nth-child(2):after{
-  background: #5dc4ec;
+  background: #1f527f;
 }
 .mz-top-nav:nth-child(3):after{
-  background: #1e7dd6;
+  background: #1f527f;
 }
 .mz-top-nav:nth-child(4):after{
-  background: #ec5a20;
+  background: #1f527f;
 }
 
 /* main */
@@ -135,18 +139,9 @@ a {
   box-shadow: initial;
   border-radius: initial;
   margin-bottom: 16px;
-  border-left:1px #1e7dd6 dashed;
-  border-right:1px #66d4ca dashed;
-  border-top:1px #9f4fe1 dashed;
-  border-bottom:1px #df4c9a dashed;
-  transition: all .3s;
+  
 }
-.mz-sidebar-inner:hover{
-  border-left:1px #df4c9a solid;
-  border-right:1px #9f4fe1 solid;
-  border-top:1px #66d4ca solid;
-  border-bottom:1px #1e7dd6 solid;
-}
+
 .mz-author-img{
   display: block;
   margin: 0 auto;
@@ -223,12 +218,6 @@ a {
 .mz-sidebar-box{
   position: relative;
   margin-bottom: 16px;
-  background-color: rgba(255, 255, 255, 0.911);
-  border-left:1px #1e7dd6 dashed;
-  border-right:1px #66d4ca dashed;
-  border-top:1px #9f4fe1 dashed;
-  border-bottom:1px #df4c9a dashed;
-  transition: all .3s;
 }
 .mz-sidebar-box .mz-title {
   margin: 0;
