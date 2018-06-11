@@ -115,7 +115,7 @@ a {
 .mz-content{
   float: right;
   box-sizing: border-box;
-  padding: 40px;
+  padding: 0 40px 40px;
   width: 700px;
   background: #f5f8ff;
   min-height: 700px;
@@ -169,6 +169,10 @@ a {
   color: #222;
   font-weight: 600;
 }
+.mz-author-description{
+  color: #777;
+  font-size: 14px;
+}
 .mz-links{
   margin-top: 20px;
 }
@@ -182,7 +186,7 @@ a {
   display: block;
   text-decoration: none;
   border-radius: 15px;
-  color: #555;
+  color: #777;
   font-size: 14px;
   margin-right: 0;
   margin-bottom: 0;
@@ -223,6 +227,11 @@ a {
   position: relative;
   margin-bottom: 16px;
   background-color: rgba(255, 255, 255, 0.911);
+  border-left:1px #1e7dd6 dashed;
+  border-right:1px #66d4ca dashed;
+  border-top:1px #9f4fe1 dashed;
+  border-bottom:1px #df4c9a dashed;
+  transition: all .3s;
 }
 .mz-sidebar-box .mz-title {
   margin: 0;
@@ -250,11 +259,17 @@ a {
   overflow: hidden;
   padding: 20px;
   border-bottom: 1px solid #eee;
+  border-left:1px #eee dashed;
+  border-right:1px #eee dashed;
+  border-top:1px #eee dashed;
+  border-bottom:1px #9f4fe1 dashed;
+  transition: all .3s;
 }
 .mz-post-title{
   font-size: 18px;
   line-height: 1.3;
   margin-top: 0;
+  color: #222;
 }
 .mz-des{
   line-height: 1.6;
@@ -285,4 +300,26 @@ a {
 }
 .mz-dot::after{
   content: "·";
+}
+.mz-hello{
+  position: relative;
+  width: 620px;
+  height: 189px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.mz-hello-img{
+  position: absolute;
+  left: 0;
+  top: -740px;
+  width: 620px;
+  height: 929px;
+  transition: all 3s;
+}
+.mz-hello-img img{
+  display: block;
+  width: 100%;
+}
+.mz-hello:hover .mz-hello-img{
+  top: 0;
 }
