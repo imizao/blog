@@ -244,11 +244,7 @@ a {
 .mz-postlist-item{
   overflow: hidden;
   padding: 20px;
-  border-bottom: 1px solid #eee;
-  border-left:1px #eee dashed;
-  border-right:1px #eee dashed;
-  border-top:1px #eee dashed;
-  border-bottom:1px #9f4fe1 dashed;
+  border-bottom:1px #1f527f dashed;
   transition: all .3s;
 }
 .mz-post-title{
