@@ -247,6 +247,13 @@ a {
 }
 .mz-sidebar-content{
   padding: 8px 5px;
+  color: #777;
+  cursor: pointer;
+  transition: all .5s ease-in;
+}
+.mz-sidebar-content:hover{
+  background: #777;
+  color: #fff;
 }
 .mz-sidebar-content h5{
   font-size: 13px;
