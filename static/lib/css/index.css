@@ -21,7 +21,17 @@ a {
 }
 
 .mz-bg{
-  background: #f5f8ff;
+  /* background: #f5f8ff; */
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../img/bg.jpg') no-repeat center 0;
+  background-size: cover;
+  z-index: -1;   
 }
 .mz-header{
   width: 100%;
@@ -116,9 +126,9 @@ a {
 .mz-content{
   float: right;
   box-sizing: border-box;
-  padding: 0 40px 40px;
+  padding: 15px 40px 40px;
   width: 700px;
-  background: #f5f8ff;
+  background: rgba(255,255,255,.8);
   min-height: 700px;
   box-shadow: initial;
   border-radius: initial;
@@ -135,13 +145,11 @@ a {
   width: 240px;
   padding: 20px 10px;
   color: #555;
-  background: #fff;
+  background: rgba(255,255,255,.8);
   box-shadow: initial;
   border-radius: initial;
   margin-bottom: 16px;
-  
 }
-
 .mz-author-img{
   display: block;
   margin: 0 auto;
@@ -156,10 +164,11 @@ a {
   cursor: pointer;
 }
 .mz-author-blog{
-  margin: 5px;
+  margin: 25px;
   text-align: center;
   color: #222;
   font-weight: 600;
+  font-size: 18px;
 }
 .mz-author-description{
   color: #777;
@@ -218,6 +227,7 @@ a {
 .mz-sidebar-box{
   position: relative;
   margin-bottom: 16px;
+  background: rgba(255,255,255,.8);
 }
 .mz-sidebar-box .mz-title {
   margin: 0;
@@ -245,6 +255,7 @@ a {
   overflow: hidden;
   padding: 20px;
   border-bottom:1px #1f527f dashed;
+  
   transition: all .3s;
 }
 .mz-post-title{
