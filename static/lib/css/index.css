@@ -55,7 +55,7 @@ a {
 .mz-logo h1{
   position: absolute;
   width: 0;
-  text-indent: -500px; 
+  text-indent: -22500px; 
 }
 .mz-logo img{
   width: 60px;
@@ -323,3 +323,27 @@ a {
 .mz-hello:hover .mz-hello-img{
   top: 0;
 }
+/*定义滚动条高宽及背景
+ 高宽分别对应横竖滚动条的尺寸*/
+ ::-webkit-scrollbar
+ {
+     width:0px;
+     height:10px;
+     background-color:#F5F5F5;
+ }
+ /*定义滚动条轨道
+  内阴影+圆角*/
+ ::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow:inset 0 0 6px rgba(2, 180, 250, 0.3);
+     border-radius:10px;
+     background-color:#F5F5F5;
+ }
+ /*定义滑块
+  内阴影+圆角*/
+ ::-webkit-scrollbar-thumb
+ {
+     border-radius:10px;
+     -webkit-box-shadow:inset 0 0 6px rgba(27, 164, 255, 0.918);
+     background-color:#555;
+ }
