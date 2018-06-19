@@ -126,9 +126,7 @@ a {
 .mz-content{
   float: right;
   box-sizing: border-box;
-  padding: 15px 40px 40px;
   width: 700px;
-  background: rgba(255,255,255,.8);
   min-height: 700px;
   box-shadow: initial;
   border-radius: initial;
@@ -261,8 +259,9 @@ a {
 .mz-postlist-item{
   overflow: hidden;
   padding: 20px;
-  border-bottom:1px #1f527f dashed;
-  
+  margin: 30px 0;
+  border-radius: 15px;
+  background: rgba(255,255,255,.8);
   transition: all .3s;
 }
 .mz-post-title{
@@ -301,6 +300,10 @@ a {
 .mz-dot::after{
   content: "·";
 }
+.mz-hello-box{
+  padding: 15px 40px;
+  background: rgba(255,255,255,.8);
+}
 .mz-hello{
   position: relative;
   width: 620px;
@@ -322,6 +325,26 @@ a {
 }
 .mz-hello:hover .mz-hello-img{
   top: 0;
+}
+.mz-footer{
+  background: rgba(255,255,255,0.9);
+  padding: 50px 0;
+  border-top: 1px solid #ddd;
+  color: #999;
+}
+.mz-outer{
+  position: relative;
+  max-width: 964px;
+  margin: 0 auto;
+  padding: 0 20px;
+  z-index: 1;
+}
+.mz-footer-info{
+  line-height: 1.6em;
+  font-size: 0.9em;
+  text-align: center;
+  width: 98%;
+  margin: 0 0.8%;
 }
 /*定义滚动条高宽及背景
  高宽分别对应横竖滚动条的尺寸*/
