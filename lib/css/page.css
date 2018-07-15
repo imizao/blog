@@ -1,10 +1,7 @@
 .mz-article{overflow: hidden;background-color: rgba(255,255,255,0.8);border-radius: 10px;}
 .mz-article-header{padding: 20px 20px 0;text-align: center;}
 .mz-article-title{text-decoration: none;font-size: 1.5em;font-weight: bold;color: #555;line-height: 1.1em;}
-.mz-article-con{
-  color: #555;
-  padding: 0 20px;
-}
+.mz-article-con{color: #555;padding: 0 20px;}
 .mz-article-con p{
   line-height: 1.6em;
   margin: 1.6em 0;
